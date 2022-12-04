@@ -1,0 +1,109 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Road Crack Detector"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Let's Go DDC"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/loginId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="ID"
+                android:textColorHint="@color/white"
+                android:paddingLeft="20dp"
+                android:background="@drawable/login_edittext"
+                />
+
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/loginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="20dp"
+                android:hint="Password"
+                android:textColorHint="@color/white"
+                android:background="@drawable/login_edittext"
+                />
+
+            <Button
+                android:id="@+id/signupBtn"
+                android:layout_width="58dp"
+                android:layout_height="20dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="15dp"
+                android:background="@color/black"
+                android:text="Sign up"
+                android:textColor="@color/skyblue"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Log in"
+                android:textColor="@color/white"
+                android:background="@drawable/login_loginbtn"
+                />
+
+            <ImageButton
+                android:id="@+id/kakaoLoginBtn"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/kakao_login_medium_narrow" />
+
+            <ImageButton
+                android:id="@+id/googleLoginBtn"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/google" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
