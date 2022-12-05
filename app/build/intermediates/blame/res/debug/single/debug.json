@@ -148,10 +148,6 @@
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable-v24/goback.jpg"
     },
     {
-        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_album.xml.flat",
-        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/album.xml"
-    },
-    {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png"
     },

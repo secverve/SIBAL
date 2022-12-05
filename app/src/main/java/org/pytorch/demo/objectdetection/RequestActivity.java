@@ -43,17 +43,15 @@ public class RequestActivity<ExitText> extends AppCompatActivity {
                         try {
                             JSONObject jsonObject = new JSONObject( response );
                             boolean success = jsonObject.getBoolean( "success" );
-
                             //회원가입 성공시
                             if(success) {
-
-                                Toast.makeText( getApplicationContext(), "성공", Toast.LENGTH_SHORT ).show();
-                                Intent intent = new Intent( getApplicationContext(), Login.class );
+                                Toast.makeText( getApplicationContext(), "회원가입이 완료되었습니다.", Toast.LENGTH_SHORT ).show();
+                                Intent intent = new Intent( getApplicationContext(), LoginActivity.class );
                                 startActivity( intent );
 
                                 //회원가입 실패시
                             } else {
-                                Toast.makeText( getApplicationContext(), "실패", Toast.LENGTH_SHORT ).show();
+                                Toast.makeText( getApplicationContext(), "회원가입에 실패하였습니다.", Toast.LENGTH_SHORT ).show();
                                 return;
                             }
 

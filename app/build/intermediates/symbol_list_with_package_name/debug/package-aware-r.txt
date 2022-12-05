@@ -2413,7 +2413,6 @@ id gone
 id googleLoginBtn
 id graph
 id graph_wrap
-id gridview
 id group_divider
 id grouping
 id groups
@@ -2804,7 +2803,6 @@ layout abc_tooltip
 layout activity_main
 layout activity_object_detection
 layout activity_talk_auth_code
-layout album
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
