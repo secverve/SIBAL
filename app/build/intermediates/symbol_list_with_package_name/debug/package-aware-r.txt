@@ -2138,6 +2138,17 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable menu
+drawable mov73
+drawable mov74
+drawable mov75
+drawable mov76
+drawable mov77
+drawable mov78
+drawable mov79
+drawable mov80
+drawable mov81
+drawable mov82
+drawable mov83
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2240,14 +2251,8 @@ id actions
 id activity_chooser_view_content
 id add
 id add1
-id add2
-id add3
-id add4
 id adjust_height
 id adjust_width
-id album_drawer
-id album_gridview
-id album_menuBtn
 id alertTitle
 id aligned
 id all
@@ -2370,6 +2375,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id emailText
 id empty_chat_view
 id empty_friend_image
 id empty_friend_text
@@ -2407,6 +2413,7 @@ id gone
 id googleLoginBtn
 id graph
 id graph_wrap
+id gridview
 id group_divider
 id grouping
 id groups
@@ -2448,8 +2455,8 @@ id listMode
 id list_item
 id liveButton
 id loginBtn
-id loginId
-id loginPassword
+id loginEmail
+id loginName
 id main_layout
 id manBtn
 id masked
@@ -2794,7 +2801,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_login
 layout activity_main
 layout activity_object_detection
 layout activity_talk_auth_code

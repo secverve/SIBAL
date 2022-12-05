@@ -7,6 +7,7 @@
 package org.pytorch.demo.objectdetection;
 
 import android.graphics.Rect;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,7 +24,7 @@ class Result {
         this.score = output;
         this.rect = rect;
     }
-};
+}
 
 public class PrePostProcessor {
     // for yolov5 model, no need to apply MEAN and STD
@@ -41,7 +42,6 @@ public class PrePostProcessor {
     private static int mNmsLimit = 15;
 
     static String[] mClasses;
-
     // The two methods nonMaxSuppression and IOU below are ported from https://github.com/hollance/YOLO-CoreML-MPSNNGraph/blob/master/Common/Helpers.swift
     /**
      Removes bounding boxes that overlap too much with other boxes that have
@@ -146,4 +146,5 @@ public class PrePostProcessor {
         }
         return nonMaxSuppression(results, mNmsLimit, mThreshold);
     }
+
 }

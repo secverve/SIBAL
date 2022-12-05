@@ -216,6 +216,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
                 classes.add(line);
             }
             PrePostProcessor.mClasses = new String[classes.size()];
+//            Log.d();
             classes.toArray(PrePostProcessor.mClasses);
         } catch (IOException e) {
             Log.e("Object Detection", "Error reading assets", e);
@@ -269,6 +270,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
         IValue[] outputTuple = mModule.forward(IValue.from(inputTensor)).toTuple();
         final Tensor outputTensor = outputTuple[0].toTensor();
         final float[] outputs = outputTensor.getDataAsFloatArray();
+        Log.i("MainActivity", String.valueOf(outputs.length));
         final ArrayList<Result> results =  PrePostProcessor.outputsToNMSPredictions(outputs, mImgScaleX, mImgScaleY, mIvScaleX, mIvScaleY, mStartX, mStartY);
 
         runOnUiThread(() -> {

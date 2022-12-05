@@ -52,16 +52,14 @@ public class Login extends AppCompatActivity {
 //        actionBar.hide();
 
         // database
-        myDBHelper myDBHelper;
-        SQLiteDatabase sqlDB;
 
         // login layout
         EditText editId1, editId2;
         Button signupBtn, findBtn, loginBtn;
         ImageButton kakaoLoginBtn, googleBtn;
 
-        editId1 = findViewById(R.id.loginId);
-        editId2 = findViewById(R.id.loginPassword);
+        editId1 = findViewById(R.id.loginEmail);
+        editId2 = findViewById(R.id.loginName);
 
         signupBtn = findViewById(R.id.signupBtn);
         loginBtn = findViewById(R.id.loginBtn);
@@ -245,7 +243,7 @@ public class Login extends AppCompatActivity {
                 Log.d(TAG, "handleSignInResult:personPhoto "+personPhoto);
 
                 // 수정해야 함
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), Album.class);
                 startActivity(intent);
             }
         } catch (ApiException e) {

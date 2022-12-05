@@ -44,23 +44,23 @@
 23        <intent>
 23-->[com.kakao.sdk:v2-common:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/05772256f6cb1c4ce97b8477976ae748/jetified-v2-common-2.11.2/AndroidManifest.xml:15:9-21:18
 24            <action android:name="android.intent.action.VIEW" />
-24-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:50:17-69
-24-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:50:25-66
+24-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:56:17-69
+24-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:56:25-66
 25
 26            <category android:name="android.intent.category.BROWSABLE" />
-26-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:52:17-78
-26-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:52:27-75
+26-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:58:17-78
+26-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:58:27-75
 27
 28            <data android:scheme="https" />
-28-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:55:17-56:78
-28-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:56:21-75
+28-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:61:17-62:78
+28-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:62:21-75
 29        </intent>
 30    </queries>
 31
 32    <application
-32-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:11:5-59:19
+32-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:11:5-71:19
 33        android:name="org.pytorch.demo.objectdetection.kakaoApplication"
-33-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:19:9-41
+33-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:20:9-41
 34        android:allowBackup="true"
 34-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:12:9-35
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -70,175 +70,189 @@
 37        android:debuggable="true"
 38        android:extractNativeLibs="false"
 39        android:fullBackupContent="@xml/backup_rules"
-39-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:14:9-54
+39-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:15:9-54
 40        android:icon="@mipmap/ic_launcher"
-40-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:15:9-43
+40-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:16:9-43
 41        android:label="@string/app_name"
-41-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:16:9-41
+41-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:17:9-41
 42        android:roundIcon="@mipmap/ic_launcher_round"
-42-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:17:9-54
+42-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:18:9-54
 43        android:supportsRtl="true"
-43-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:18:9-35
+43-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:19:9-35
 44        android:testOnly="true"
 45        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-45-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:20:9-65
+45-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:21:9-65
 46        android:usesCleartextTraffic="true" >
-46-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:11:9-44
+46-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:14:9-44
 47        <activity
-47-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:21:9-29:20
-48            android:name="org.pytorch.demo.objectdetection.Login"
-48-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:21:19-40
+47-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:22:9-30:20
+48            android:name="org.pytorch.demo.objectdetection.LoginActivity"
+48-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:22:19-48
 49            android:configChanges="orientation"
-49-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:22:13-48
+49-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:23:13-48
 50            android:exported="true"
-50-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:24:13-36
+50-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:25:13-36
 51            android:screenOrientation="portrait" >
-51-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:23:13-49
+51-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:24:13-49
 52            <intent-filter>
-52-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:25:13-28:29
+52-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:26:13-29:29
 53                <action android:name="android.intent.action.MAIN" />
-53-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:26:17-69
-53-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:26:25-66
+53-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:27:17-69
+53-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:27:25-66
 54
 55                <category android:name="android.intent.category.LAUNCHER" />
-55-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:27:17-77
-55-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:27:27-74
+55-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:28:17-77
+55-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:28:27-74
 56            </intent-filter>
 57        </activity>
 58        <activity
-58-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:30:9-34:20
+58-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:31:9-35:20
 59            android:name="org.pytorch.demo.objectdetection.ObjectDetectionActivity"
-59-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:31:13-52
+59-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:32:13-52
 60            android:configChanges="orientation"
-60-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:32:13-48
+60-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:33:13-48
 61            android:screenOrientation="portrait" >
-61-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:33:13-49
+61-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:34:13-49
 62        </activity>
 63        <activity
-63-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:35:9-39:20
+63-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:36:9-40:20
 64            android:name="org.pytorch.demo.objectdetection.MainActivity"
-64-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:36:13-41
+64-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:37:13-41
 65            android:exported="true" >
-65-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:37:13-36
+65-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:38:13-36
 66        </activity>
 67        <activity
-67-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:40:9-44:20
+67-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:41:9-45:20
 68            android:name="org.pytorch.demo.objectdetection.Signup"
-68-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:41:13-35
+68-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:42:13-35
 69            android:exported="true" >
-69-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:42:13-36
+69-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:43:13-36
 70        </activity>
 71        <activity
-71-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:45:9-58:20
-72            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
-72-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:46:13-70
-73            android:exported="true"
-73-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:47:13-36
-74            android:launchMode="singleTask"
-74-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:18:13-44
-75            android:theme="@style/TransparentCompat" >
-75-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:19:13-53
-76            <intent-filter>
-76-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:49:13-57:29
-77                <action android:name="android.intent.action.VIEW" />
-77-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:50:17-69
-77-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:50:25-66
-78
-79                <category android:name="android.intent.category.DEFAULT" />
-79-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:51:17-76
-79-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:51:27-73
-80                <category android:name="android.intent.category.BROWSABLE" />
-80-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:52:17-78
-80-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:52:27-75
-81
-82                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth" -->
-83                <data
-83-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:55:17-56:78
-84                    android:host="oauth"
-84-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:55:23-43
-85                    android:scheme="kakaof3de2d08818769c79ad94cb4f8975e48" />
-85-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:56:21-75
-86            </intent-filter>
-87        </activity>
-88        <activity
-88-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:13:9-16:59
-89            android:name="com.kakao.sdk.friend.view.FullPickerActivity"
-89-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:14:13-72
-90            android:theme="@style/DayNightFull"
-90-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:15:13-48
-91            android:windowSoftInputMode="adjustNothing" />
-91-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:16:13-56
+71-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:46:9-50:20
+72            android:name="org.pytorch.demo.objectdetection.Album"
+72-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:47:13-34
+73            android:exported="true" >
+73-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:48:13-36
+74        </activity>
+75        <activity
+75-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:51:9-64:20
+76            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+76-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:52:13-70
+77            android:exported="true"
+77-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:53:13-36
+78            android:launchMode="singleTask"
+78-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:18:13-44
+79            android:theme="@style/TransparentCompat" >
+79-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:19:13-53
+80            <intent-filter>
+80-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:55:13-63:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:56:17-69
+81-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:56:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:57:17-76
+83-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:57:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:58:17-78
+84-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:58:27-75
+85
+86                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth" -->
+87                <data
+87-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:61:17-62:78
+88                    android:host="oauth"
+88-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:61:23-43
+89                    android:scheme="kakaof3de2d08818769c79ad94cb4f8975e48" />
+89-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:62:21-75
+90            </intent-filter>
+91        </activity>
 92        <activity
-92-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:17:9-19:52
-93            android:name="com.kakao.sdk.friend.view.PopupPickerActivity"
-93-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:18:13-73
-94            android:theme="@style/DayNightPopup" />
-94-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:19:13-49
-95        <activity
-95-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:10:9-15:56
-96            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
-96-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:11:13-67
-97            android:configChanges="orientation|screenSize|keyboardHidden"
-97-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:12:13-74
-98            android:exported="false"
-98-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:13:13-37
-99            android:launchMode="singleTask"
-99-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:14:13-44
-100            android:theme="@style/TransparentCompat" />
-100-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:15:13-53
-101        <activity
-101-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:23:9-27:75
-102            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-102-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:24:13-93
-103            android:excludeFromRecents="true"
-103-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:25:13-46
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:26:13-37
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:27:13-72
-106        <!--
-107            Service handling Google Sign-In user revocation. For apps that do not integrate with
-108            Google Sign-In, this service will never be started.
-109        -->
-110        <service
-110-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:33:9-37:51
-111            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-111-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:34:13-89
-112            android:exported="true"
-112-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:35:13-36
-113            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-113-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:36:13-107
-114            android:visibleToInstantApps="true" />
-114-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:37:13-48
-115
-116        <provider
-116-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:25:9-30:43
-117            android:name="androidx.camera.camera2.impl.Camera2Initializer"
-117-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:26:13-75
-118            android:authorities="org.pytorch.demo.objectdetection.camerax-init"
-118-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:27:13-64
-119            android:exported="false"
-119-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:28:13-37
-120            android:initOrder="100"
-120-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:29:13-36
-121            android:multiprocess="true" />
-121-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:30:13-40
-122
-123        <activity
-123-->[com.google.android.gms:play-services-base:18.0.1] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bb6768f20d1de5ba02407f9183f06731/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-124-->[com.google.android.gms:play-services-base:18.0.1] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bb6768f20d1de5ba02407f9183f06731/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-125            android:exported="false"
-125-->[com.google.android.gms:play-services-base:18.0.1] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bb6768f20d1de5ba02407f9183f06731/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-126-->[com.google.android.gms:play-services-base:18.0.1] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bb6768f20d1de5ba02407f9183f06731/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-127
-128        <meta-data
-128-->[com.google.android.gms:play-services-basement:18.1.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/dae4d6ab41d2d582b03ac5a214336f6a/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-129            android:name="com.google.android.gms.version"
-129-->[com.google.android.gms:play-services-basement:18.1.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/dae4d6ab41d2d582b03ac5a214336f6a/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-130            android:value="@integer/google_play_services_version" />
-130-->[com.google.android.gms:play-services-basement:18.1.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/dae4d6ab41d2d582b03ac5a214336f6a/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-131    </application>
-132
-133</manifest>
+92-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:65:9-69:20
+93            android:name="org.pytorch.demo.objectdetection.RequestActivity"
+93-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:66:13-44
+94            android:exported="true" >
+94-->/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:67:13-36
+95        </activity>
+96        <activity
+96-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:13:9-16:59
+97            android:name="com.kakao.sdk.friend.view.FullPickerActivity"
+97-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:14:13-72
+98            android:theme="@style/DayNightFull"
+98-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:15:13-48
+99            android:windowSoftInputMode="adjustNothing" />
+99-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:16:13-56
+100        <activity
+100-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:17:9-19:52
+101            android:name="com.kakao.sdk.friend.view.PopupPickerActivity"
+101-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:18:13-73
+102            android:theme="@style/DayNightPopup" />
+102-->[com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:19:13-49
+103        <activity
+103-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:10:9-15:56
+104            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
+104-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:11:13-67
+105            android:configChanges="orientation|screenSize|keyboardHidden"
+105-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:12:13-74
+106            android:exported="false"
+106-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:13:13-37
+107            android:launchMode="singleTask"
+107-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:14:13-44
+108            android:theme="@style/TransparentCompat" />
+108-->[com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:15:13-53
+109        <activity
+109-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:23:9-27:75
+110            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+110-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:24:13-93
+111            android:excludeFromRecents="true"
+111-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:25:13-46
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:26:13-37
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:27:13-72
+114        <!--
+115            Service handling Google Sign-In user revocation. For apps that do not integrate with
+116            Google Sign-In, this service will never be started.
+117        -->
+118        <service
+118-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:33:9-37:51
+119            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+119-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:34:13-89
+120            android:exported="true"
+120-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:35:13-36
+121            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+121-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:36:13-107
+122            android:visibleToInstantApps="true" />
+122-->[com.google.android.gms:play-services-auth:20.4.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/AndroidManifest.xml:37:13-48
+123
+124        <provider
+124-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:25:9-30:43
+125            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+125-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:26:13-75
+126            android:authorities="org.pytorch.demo.objectdetection.camerax-init"
+126-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:27:13-64
+127            android:exported="false"
+127-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:28:13-37
+128            android:initOrder="100"
+128-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:29:13-36
+129            android:multiprocess="true" />
+129-->[androidx.camera:camera-camera2:1.0.0-alpha05] /home/zeroone/.gradle/caches/transforms-2/files-2.1/03e258dd1a54bb78b5d34876ddcad997/jetified-camera-camera2-1.0.0-alpha05/AndroidManifest.xml:30:13-40
+130
+131        <activity
+131-->[com.google.android.gms:play-services-base:18.0.1] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bb6768f20d1de5ba02407f9183f06731/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+132            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+132-->[com.google.android.gms:play-services-base:18.0.1] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bb6768f20d1de5ba02407f9183f06731/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-base:18.0.1] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bb6768f20d1de5ba02407f9183f06731/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-base:18.0.1] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bb6768f20d1de5ba02407f9183f06731/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+135
+136        <meta-data
+136-->[com.google.android.gms:play-services-basement:18.1.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/dae4d6ab41d2d582b03ac5a214336f6a/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+137            android:name="com.google.android.gms.version"
+137-->[com.google.android.gms:play-services-basement:18.1.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/dae4d6ab41d2d582b03ac5a214336f6a/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+138            android:value="@integer/google_play_services_version" />
+138-->[com.google.android.gms:play-services-basement:18.1.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/dae4d6ab41d2d582b03ac5a214336f6a/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+139    </application>
+140
+141</manifest>

@@ -1,35 +1,43 @@
 package org.pytorch.demo.objectdetection;
 
 import android.annotation.SuppressLint;
+import android.app.MediaRouteButton;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.graphics.Matrix;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
-import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Signup extends AppCompatActivity {
+    ImageView mImageView;
+    Bitmap mBitmap;
+
+    EditText nameText, phoneNum, add1;
+    ImageButton backImgBtn, myImgBtn, removeBtn;
+    Button manBtn, womanBtn, signupBtn;
+    Spinner year, month, day;
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signup);
-
-//        ActionBar actionBar = getSupportActionBar();
-//        actionBar.hide();
-
-        EditText nameText, phoneNum, add1, add2, add3, add4;
-        ImageButton backImgBtn, myImgBtn, removeBtn;
-        Button manBtn, womanBtn, signupBtn;
-        Spinner imgSelect, year, month, day;
 
         backImgBtn = findViewById(R.id.backImgBtn);
         backImgBtn.setOnClickListener(new View.OnClickListener() {
@@ -40,22 +48,34 @@ public class Signup extends AppCompatActivity {
             }
         });
 
+        mBitmap = null;
         myImgBtn = findViewById(R.id.myImgBtn);
-//        imgSelect = findViewById(R.id.myImgBtn);
-//        String[] option_list = getResources().getStringArray(R.array.이미지옵션);
-//        @SuppressLint("ResourceType") ArrayAdapter<String> adapter3 = new ArrayAdapter<String>(
-//                this,
-//                android.R.layout.simple_spinner_dropdown_item,
-//                option_list
-//        );
-//        adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//        day.setAdapter(adapter3);
-
-
         myImgBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
+                final CharSequence[] options = { "앨범에서 가져오기", "사진 찍기", "뒤로 가기" };
+                AlertDialog.Builder builder = new AlertDialog.Builder(Signup.this);
+                builder.setTitle("이미지 선택");
+
+                builder.setItems(options, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int item) {
+                        if (options[item].equals("사진 찍기")) {
+                            Intent takePicture = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                            startActivityForResult(takePicture, 0);
+                        }
+                        else if (options[item].equals("앨범에서 가져오기")) {
+                            Intent pickPhoto = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.INTERNAL_CONTENT_URI);
+                            startActivityForResult(pickPhoto , 1);
+
+                        }
+                        else if (options[item].equals("뒤로 가기")) {
+                            dialog.dismiss();
+                        }
+                    }
+                });
+                builder.show();
             }
         });
 
@@ -96,7 +116,7 @@ public class Signup extends AppCompatActivity {
                 this,
                 android.R.layout.simple_spinner_dropdown_item,
                 year_list
-                );
+        );
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         year.setAdapter(adapter1);
 
@@ -118,7 +138,7 @@ public class Signup extends AppCompatActivity {
                 this,
                 android.R.layout.simple_spinner_dropdown_item,
                 month_list
-                );
+        );
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         month.setAdapter(adapter2);
 
@@ -158,17 +178,56 @@ public class Signup extends AppCompatActivity {
 
         // 세부 사항 구현
         add1 = findViewById(R.id.add1);
-        add2 = findViewById(R.id.add2);
-        add3 = findViewById(R.id.add3);
-        add4 = findViewById(R.id.add4);
         signupBtn = findViewById(R.id.signupBtn);
 
         signupBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(intent);
             }
         });
     }
+
+    // 이미지 버튼 클릭시 이벤트 처리
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode != RESULT_CANCELED) {
+            switch (requestCode) {
+                case 0:
+                    if (resultCode == RESULT_OK && data != null) {
+                        mBitmap = (Bitmap) data.getExtras().get("data");
+                        Matrix matrix = new Matrix();
+                        mBitmap = Bitmap.createBitmap(mBitmap, 0, 0, mBitmap.getWidth(), mBitmap.getHeight(), matrix, true);
+                        myImgBtn.setImageBitmap(mBitmap);
+//                        mImageView.setImageBitmap(mBitmap);
+                    }
+                    break;
+                case 1:
+                    if (resultCode == RESULT_OK && data != null) {
+                        Uri selectedImage = data.getData();
+                        String[] filePathColumn = {MediaStore.Images.Media.DATA};
+                        if (selectedImage != null) {
+                            Cursor cursor = getContentResolver().query(selectedImage,
+                                    filePathColumn, null, null, null);
+                            if (cursor != null) {
+                                cursor.moveToFirst();
+                                int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
+                                String picturePath = cursor.getString(columnIndex);
+                                mBitmap = BitmapFactory.decodeFile(picturePath);
+                                Matrix matrix = new Matrix();
+                                mBitmap = Bitmap.createBitmap(mBitmap, 0, 0, mBitmap.getWidth(), mBitmap.getHeight(), matrix, true);
+                                myImgBtn.setImageBitmap(mBitmap);
+                                cursor.close();
+                            }
+                        }
+                    }
+                    break;
+            }
+        }
+    }
+
+
 }
 

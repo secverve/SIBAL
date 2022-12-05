@@ -11,6 +11,7 @@
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
+        android:usesCleartextTraffic="true"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,7 +19,7 @@
         android:supportsRtl="true"
         android:name=".kakaoApplication"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Login"
+        <activity android:name=".LoginActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:exported="true">
@@ -43,6 +44,11 @@
             >
         </activity>
         <activity
+            android:name=".Album"
+            android:exported="true"
+            >
+        </activity>
+        <activity
             android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
             android:exported="true"
             tools:ignore="MissingClass">
@@ -56,6 +62,12 @@
                     android:scheme="kakaof3de2d08818769c79ad94cb4f8975e48" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".RequestActivity"
+            android:exported="true"
+            >
+        </activity>
+
     </application>
 
 </manifest>
