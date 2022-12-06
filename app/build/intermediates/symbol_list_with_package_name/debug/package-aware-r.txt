@@ -2503,7 +2503,6 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id member_count_tv
-id menu
 id menu_album
 id menu_home
 id menu_login

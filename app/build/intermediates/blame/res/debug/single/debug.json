@@ -24,12 +24,12 @@
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable/mov81.jpg"
     },
     {
-        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_activity_album.xml.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/activity_album.xml"
+    },
+    {
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable-v24_ui_remove.jpg.flat",
@@ -200,12 +200,12 @@
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/picture_folder_item.xml"
     },
     {
-        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_request.xml.flat",
-        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/request.xml"
-    },
-    {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_indicator_holder.xml.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/indicator_holder.xml"
+    },
+    {
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_request.xml.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/request.xml"
     },
     {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
