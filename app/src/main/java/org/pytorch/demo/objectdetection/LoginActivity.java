@@ -197,6 +197,12 @@ public class LoginActivity extends AppCompatActivity {
                             if(success) {
                                 Toast.makeText( getApplicationContext(), "회원가입이 완료되었습니다.", Toast.LENGTH_SHORT ).show();
                                 Intent intent = new Intent( getApplicationContext(), MainActivity.class );
+
+                                intent.putExtra( "userEmail", personEmail );
+                                intent.putExtra( "userID", personId );
+                                intent.putExtra( "userName", personName );
+                                intent.putExtra( "userAge", 99 );
+
                                 startActivity( intent );
 
                                 //회원가입 실패시
@@ -271,6 +277,12 @@ public class LoginActivity extends AppCompatActivity {
                             if(success) {
                                 Toast.makeText( getApplicationContext(), "회원가입이 완료되었습니다.", Toast.LENGTH_SHORT ).show();
                                 Intent intent = new Intent( getApplicationContext(), MainActivity.class );
+
+                                intent.putExtra( "userEmail", personEmail );
+                                intent.putExtra( "userID", personId );
+                                intent.putExtra( "userName", personName );
+                                intent.putExtra( "userAge", 99 );
+
                                 startActivity( intent );
 
                                 //회원가입 실패시

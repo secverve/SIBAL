@@ -44,6 +44,10 @@
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_credit.xml.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/credit.xml"
+    },
+    {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable_mov73.jpg.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable/mov73.jpg"
     },
@@ -60,12 +64,20 @@
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_fragment_frag1.xml.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/fragment_frag1.xml"
+    },
+    {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_pic_holder_item.xml.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/pic_holder_item.xml"
     },
     {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_texture_view.xml.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/texture_view.xml"
+    },
+    {
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_fragment_frag3.xml.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/fragment_frag3.xml"
     },
     {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable-v24_signup_square_bg.xml.flat",
@@ -124,6 +136,10 @@
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable-v24/signup_round_bg.xml"
     },
     {
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_fragment_frag2.xml.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/fragment_frag2.xml"
+    },
+    {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable-v24_kakao_login_medium_narrow.jpg.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable-v24/kakao_login_medium_narrow.jpg"
     },
@@ -156,6 +172,10 @@
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/nav_header_main.xml"
     },
     {
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/menu_creditbottom.xml.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/menu/creditbottom.xml"
+    },
+    {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_activity_image_display.xml.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/activity_image_display.xml"
     },
@@ -186,6 +206,10 @@
     {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable_mov82.jpg.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable/mov82.jpg"
+    },
+    {
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable_logo.jpg.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable/logo.jpg"
     },
     {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable-v24_kakao.jpg.flat",

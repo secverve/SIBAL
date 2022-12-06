@@ -2134,6 +2134,7 @@ drawable kakao_sdk_radio_select_on
 drawable kakao_sdk_round_button
 drawable login_edittext
 drawable login_loginbtn
+drawable logo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2337,6 +2338,7 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id creditinfo
 id currentState
 id custom
 id customPanel
@@ -2503,6 +2505,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id member_count_tv
+id menuIDInfo
 id menu_album
 id menu_home
 id menu_login
@@ -2676,7 +2679,10 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tab_add
+id tab_credit
 id tab_layout
+id tab_trade
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2830,6 +2836,7 @@ layout activity_object_detection
 layout activity_talk_auth_code
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout credit
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2846,6 +2853,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_frag1
+layout fragment_frag2
+layout fragment_frag3
 layout indicator_holder
 layout kakao_sdk_activity_picker
 layout kakao_sdk_activity_popup_picker
@@ -2944,6 +2954,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout texture_view
 layout toolbar
+menu creditbottom
 menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
