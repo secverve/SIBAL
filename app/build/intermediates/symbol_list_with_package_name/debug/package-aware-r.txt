@@ -1479,6 +1479,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen browser_actions_context_menu_max_width
 dimen browser_actions_context_menu_min_padding
@@ -1557,6 +1559,7 @@ dimen error_retry_view_text_size
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen folder_column_width
 dimen friends_list_padding_bottom
 dimen header_margin_bottom
 dimen header_margin_start
@@ -1569,6 +1572,8 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen item_margin
+dimen item_margin_half
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -1846,6 +1851,7 @@ dimen picked_view_padding_horizontal
 dimen picked_view_squirecle_margin_horizontal
 dimen picked_view_squirecle_margin_top
 dimen picked_view_squirecle_size
+dimen picture_column_width
 dimen popup_category_divider_margin_top
 dimen popup_empty_search_result_margin_top
 dimen popup_empty_search_result_margin_top_landscape
@@ -2084,6 +2090,7 @@ drawable goback
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_action_menu
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2248,6 +2255,7 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id activeImage
 id activity_chooser_view_content
 id add
 id add1
@@ -2320,6 +2328,7 @@ id closest
 id collapseActionView
 id confirm_button
 id constraint
+id constraint_layout
 id container
 id content
 id contentPanel
@@ -2356,6 +2365,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id displayContainer
 id done_btn
 id done_btn_layout
 id dragAnticlockwise
@@ -2366,7 +2376,6 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
-id drawer
 id drawer_layout
 id dropdown_menu
 id easeIn
@@ -2376,6 +2385,7 @@ id east
 id edit_query
 id elastic
 id emailText
+id empty
 id empty_chat_view
 id empty_friend_image
 id empty_friend_text
@@ -2401,6 +2411,12 @@ id fitToContents
 id fixed
 id flip
 id floating
+id folderCard
+id folderName
+id folderPic
+id folderRecycler
+id folderSize
+id foldername
 id forever
 id fragment_container
 id friend_tab
@@ -2417,6 +2433,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id head
 id header_title
 id hideable
 id home
@@ -2430,9 +2447,13 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageIndicator
+id imagePager
 id imageView
 id immediateStop
 id included
+id indicatorCard
+id indicatorRecycler
 id info
 id invisible
 id inward
@@ -2453,6 +2474,7 @@ id linear
 id listMode
 id list_item
 id liveButton
+id loader
 id loginBtn
 id loginEmail
 id loginName
@@ -2481,6 +2503,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id member_count_tv
+id menu
 id menu_album
 id menu_home
 id menu_login
@@ -2575,6 +2598,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycler
 id refresh_button
 id reject_tv
 id removeBtn
@@ -2800,6 +2824,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_album
+layout activity_image_display
 layout activity_main
 layout activity_object_detection
 layout activity_talk_auth_code
@@ -2821,6 +2847,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout indicator_holder
 layout kakao_sdk_activity_picker
 layout kakao_sdk_activity_popup_picker
 layout kakao_sdk_category_divider
@@ -2892,6 +2919,10 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pic_holder_item
+layout picture_browser
+layout picture_browser_pager
+layout picture_folder_item
 layout request
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -2952,6 +2983,7 @@ string accessibility_delete
 string accessibility_member_count_unit
 string accessibility_open_chat
 string accessibility_unselect
+string appName
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -2984,6 +3016,7 @@ string common_signin_button_text_long
 string copy_toast_msg
 string deselect_all
 string detect
+string empty
 string empty_chat_message
 string empty_friend_message
 string empty_search_result
@@ -2995,6 +3028,7 @@ string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string favorite
+string folderName
 string friend
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -3068,6 +3102,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string photos_name
 string registered
 string reject_message
 string restart

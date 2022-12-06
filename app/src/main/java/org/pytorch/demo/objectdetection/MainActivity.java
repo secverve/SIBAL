@@ -37,6 +37,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.google.android.material.navigation.NavigationView;
+
 import org.pytorch.IValue;
 import org.pytorch.LiteModuleLoader;
 import org.pytorch.Module;
@@ -91,7 +93,35 @@ public class MainActivity extends AppCompatActivity implements Runnable {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.constraint_layout);
+        setContentView(R.layout.activity_main);
+        bu_menu = findViewById(R.id.bu_menu);
+        mDrawerLayout = findViewById(R.id.drawer_layout);
+        toolbar = findViewById(R.id.toolbar);
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+                menuItem.setChecked(true);
+                mDrawerLayout.closeDrawers();
+                int id = menuItem.getItemId();
+
+                if(id == R.id.menu_home){
+                    Intent settingIntent = new Intent(MainActivity.this, MainActivity.class);
+                    startActivity(settingIntent); //첫 화면 넘어가기
+                }
+                else if(id == R.id.menu_login){
+                    Intent settingIntent = new Intent(MainActivity.this, AlbumActivity.class);
+                    startActivity(settingIntent); //두번째 화면 넘어가기
+                }
+                else if(id == R.id.menu_album){
+                    Intent settingIntent = new Intent(MainActivity.this, AlbumActivity.class);
+                    startActivity(settingIntent); //세번째 화면 넘어가기
+                }
+                return true;
+            }
+        });
 
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
@@ -101,11 +131,6 @@ public class MainActivity extends AppCompatActivity implements Runnable {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, 1);
         }
-
-        setContentView(R.layout.activity_main);
-        bu_menu = findViewById(R.id.bu_menu);
-        mDrawerLayout = findViewById(R.id.drawer);
-        toolbar = findViewById(R.id.toolbar);
 
         setSupportActionBar(toolbar); //액티비티의 앱바(App Bar)로 지정
         ActionBar actionBar = getSupportActionBar(); //앱바 제어를 위해 툴바 액세스
