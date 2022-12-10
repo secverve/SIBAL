@@ -2287,6 +2287,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2297,6 +2298,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id bu_menu
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2338,7 +2340,6 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
-id creditinfo
 id currentState
 id custom
 id customPanel
@@ -2678,11 +2679,11 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id tab1
+id tab2
+id tab3
 id tabMode
-id tab_add
-id tab_credit
 id tab_layout
-id tab_trade
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2853,9 +2854,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_frag1
-layout fragment_frag2
-layout fragment_frag3
+layout fragment1
+layout fragment2
+layout fragment3
 layout indicator_holder
 layout kakao_sdk_activity_picker
 layout kakao_sdk_activity_popup_picker
@@ -2954,8 +2955,8 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout texture_view
 layout toolbar
-menu creditbottom
 menu main_menu
+menu menu_bottom
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

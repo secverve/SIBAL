@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/tab1"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="현재 크레딧"
+        android:icon="@android:drawable/ic_dialog_info"/>
+
+    <item android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:title="교환소"
+        android:icon="@android:drawable/ic_dialog_info"/>
+
+    <item android:id="@+id/tab3"
+        app:showAsAction="ifRoom"
+        android:title="크레딧 모으기"
+        android:icon="@android:drawable/ic_menu_camera"/>
+</menu>

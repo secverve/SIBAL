@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity implements Runnable {
     private Bitmap mBitmap = null;
     private Module mModule = null;
     private float mImgScaleX, mImgScaleY, mIvScaleX, mIvScaleY, mStartX, mStartY;
-    private String USERID = null;
 
     public static String assetFilePath(Context context, String assetName) throws IOException {
         File file = new File(context.getFilesDir(), assetName);
@@ -102,22 +101,11 @@ public class MainActivity extends AppCompatActivity implements Runnable {
         mDrawerLayout = findViewById(R.id.drawer_layout);
         toolbar = findViewById(R.id.toolbar);
 
-//        USERID = getIntent().getStringExtra("userName");
-//        TextView menuIDInfo = findViewById(R.id.menuIDInfo);
-//        menuIDInfo.setText(USERID +"님 환영합니다!");
+//        this.setUSERID(getIntent().getStringExtra("userName"));
 
-//        Log.d("Mainactivity", USERID);
+
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-
-//        navigationView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Log.e("MainActivity", "passsssss");
-//                menuIDInfo.setText(USERID +"님 환영합니다!");
-//            }
-//        });
-
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
@@ -134,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
                     startActivity(settingIntent); //두번째 화면 넘어가기
                 }
                 else if(id == R.id.menu_album){
-                    Intent settingIntent = new Intent(MainActivity.this, Creditmain.class);
+                    Intent settingIntent = new Intent(MainActivity.this, credit.class);
                     startActivity(settingIntent); //세번째 화면 넘어가기
                 }
                 return true;

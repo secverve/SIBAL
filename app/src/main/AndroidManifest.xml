@@ -67,6 +67,12 @@
             android:exported="true"
             >
         </activity>
+        <activity
+            android:name=".credit"
+            android:exported="true"
+            >
+
+        </activity>
 
     </application>
 

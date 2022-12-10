@@ -95,6 +95,10 @@
             android:exported="true" >
         </activity>
         <activity
+            android:name="org.pytorch.demo.objectdetection.credit"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.kakao.sdk.friend.view.FullPickerActivity"
             android:theme="@style/DayNightFull"
             android:windowSoftInputMode="adjustNothing" />

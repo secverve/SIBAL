@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-73:12
+ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-79:12
 MERGED from [com.kakao.sdk:v2-all:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/75456683e82a7f0093783fb8d542e244/jetified-v2-all-2.11.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.kakao.sdk:v2-talk:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/dabcbe9eb066370beee4a782e5a72ce9/jetified-v2-talk-2.11.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.kakao.sdk:v2-story:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/8947be60f7c3032b5145778ebb4cc789/jetified-v2-story-2.11.2/AndroidManifest.xml:2:1-9:12
@@ -65,22 +65,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/zeroone/.gradle/cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/d711f81259436f09ffdf0b48105165e3/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/87e4a5cb4839ebd5d033fa0ae6227780/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/zeroone/.gradle/caches/transforms-2/files-2.1/1e0614212b25f4ae67724a3587ed8129/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-79:12
 	package
 		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:4:5-47
 		INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml
 		INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml
-		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-73:12
+		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-79:12
 		INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml
-		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-73:12
+		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:1-79:12
 		INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:2:11-69
@@ -97,7 +97,7 @@ ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/Andr
 	android:name
 		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:9:22-62
 application
-ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:11:5-71:19
+ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:11:5-77:19
 MERGED from [com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:10:5-20:19
 MERGED from [com.kakao.sdk:v2-friend:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/AndroidManifest.xml:10:5-20:19
 MERGED from [com.kakao.sdk:v2-auth:2.11.2] /home/zeroone/.gradle/caches/transforms-2/files-2.1/c5638309888cd3c950204bcca1e08391/jetified-v2-auth-2.11.2/AndroidManifest.xml:9:5-20:19
@@ -238,6 +238,12 @@ ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/Andr
 		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:67:13-36
 	android:name
 		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:66:13-41
+activity#org.pytorch.demo.objectdetection.credit
+ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:70:9-75:20
+	android:exported
+		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:72:13-36
+	android:name
+		ADDED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml:71:13-35
 uses-sdk
 INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/AndroidManifest.xml
