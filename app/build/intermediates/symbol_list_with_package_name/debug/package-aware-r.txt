@@ -2509,6 +2509,7 @@ id member_count_tv
 id menuIDInfo
 id menu_album
 id menu_home
+id menu_labeling
 id menu_login
 id message
 id middle

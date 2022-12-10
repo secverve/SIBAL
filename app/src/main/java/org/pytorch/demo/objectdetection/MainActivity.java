@@ -101,11 +101,19 @@ public class MainActivity extends AppCompatActivity implements Runnable {
         mDrawerLayout = findViewById(R.id.drawer_layout);
         toolbar = findViewById(R.id.toolbar);
 
-//        this.setUSERID(getIntent().getStringExtra("userName"));
+        if (((kakaoApplication) getApplication()).getUSERID().equals("")){
+            ((kakaoApplication) getApplication()).setUSERID(getIntent().getStringExtra("userName"));
+        }
 
-
+        String userid = ((kakaoApplication) getApplication()).getUSERID();
+        Log.e("MainActivity", userid);
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        View nav_header_view = navigationView.getHeaderView(0);
+
+        TextView nav_header_id_text = (TextView) nav_header_view.findViewById(R.id.menuIDInfo);
+        nav_header_id_text.setText("환영합니다 " + userid + "");
+
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
@@ -129,7 +137,6 @@ public class MainActivity extends AppCompatActivity implements Runnable {
             }
         });
 
-
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
         }
@@ -146,6 +153,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
             public void onClick(View v) {
                 Log.d(TAG, "onClick: 클릭됨");
                 mDrawerLayout.openDrawer(Gravity.LEFT);
+
             }
         });
 

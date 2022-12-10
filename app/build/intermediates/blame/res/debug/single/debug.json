@@ -20,20 +20,20 @@
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable-v24/button.xml"
     },
     {
-        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable-v24_profile.jpg.flat",
-        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable-v24/profile.jpg"
-    },
-    {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable_mov81.jpg.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable/mov81.jpg"
     },
     {
-        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/activity_main.xml"
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable-v24_profile.jpg.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/drawable-v24/profile.jpg"
     },
     {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_activity_album.xml.flat",
         "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/activity_album.xml"
+    },
+    {
+        "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/res/merged/debug/drawable-v24_ui_remove.jpg.flat",

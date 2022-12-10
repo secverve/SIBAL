@@ -19,5 +19,11 @@
             android:title="Credit"
             android:checkable="true"
             android:checked="false"/>
+
+        <item
+            android:id="@+id/menu_labeling"
+            android:title="labeling"
+            android:checkable="true"
+            android:checked="false"/>
     </group>
 </menu>

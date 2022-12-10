@@ -6,7 +6,7 @@ import com.kakao.sdk.common.KakaoSdk;
 
 public class kakaoApplication extends Application {
     private static kakaoApplication instance;
-    private static String USERID;
+    private static String USERID = "";
 
     @Override
     public void onCreate(){
