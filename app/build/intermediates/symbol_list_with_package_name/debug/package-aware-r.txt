@@ -2134,7 +2134,6 @@ drawable kakao_sdk_radio_select_on
 drawable kakao_sdk_round_button
 drawable login_edittext
 drawable login_loginbtn
-drawable logo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2547,6 +2546,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myImgBtn
+id name
 id nameText
 id nav_view
 id navigation_bar_item_icon_view
@@ -2603,6 +2603,7 @@ id radio
 id ratio
 id rectangles
 id recycler
+id recyclerView
 id refresh_button
 id reject_tv
 id removeBtn
@@ -2859,6 +2860,7 @@ layout fragment1
 layout fragment2
 layout fragment3
 layout indicator_holder
+layout item
 layout kakao_sdk_activity_picker
 layout kakao_sdk_activity_popup_picker
 layout kakao_sdk_category_divider

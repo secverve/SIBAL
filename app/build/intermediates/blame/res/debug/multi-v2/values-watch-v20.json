@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "D:\\verve\\cap\\dadsa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/zeroone/.gradle/caches/transforms-2/files-2.1/bf96d2b5a86ecd602a621e7e96856420/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "C:\\Users\\Owner\\.gradle\\caches\\transforms-2\\files-2.1\\bf96d2b5a86ecd602a621e7e96856420\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/zeroone/.gradle/caches/transforms-2/files-2.1/96cd9298e9d708b912e064333e7bd8b0/jetified-play-services-auth-20.4.0/res/values-watch-v20/values.xml",
+                    "source": "C:\\Users\\Owner\\.gradle\\caches\\transforms-2\\files-2.1\\96cd9298e9d708b912e064333e7bd8b0\\jetified-play-services-auth-20.4.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

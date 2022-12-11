@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/zeroone/AndroidStudioProjects/ObjectDetection/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "D:\\verve\\cap\\dadsa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/zeroone/.gradle/caches/transforms-2/files-2.1/bf96d2b5a86ecd602a621e7e96856420/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,27",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "169,239,323,407,503,605,707,2663",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "234,318,402,498,600,702,796,2747"
-                    }
-                },
-                {
-                    "source": "/home/zeroone/.gradle/caches/transforms-2/files-2.1/bbdc712de799137eba2fc43c799302c7/jetified-v2-friend-2.11.2/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\Owner\\.gradle\\caches\\transforms-2\\files-2.1\\bbdc712de799137eba2fc43c799302c7\\jetified-v2-friend-2.11.2\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -31,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/zeroone/.gradle/caches/transforms-2/files-2.1/43a470e64c0b59182e5e2d5487691e11/material-1.4.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\Owner\\.gradle\\caches\\transforms-2\\files-2.1\\43a470e64c0b59182e5e2d5487691e11\\material-1.4.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -45,6 +28,23 @@
                         "startOffsets": "801,889,1013,1115,1217,1333,1435,1549,1677,1793,1915,2051,2171,2305,2425,2537,2752,2876,3006,3128,3266,3400,3516",
                         "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
                         "endOffsets": "884,1008,1110,1212,1328,1430,1544,1672,1788,1910,2046,2166,2300,2420,2532,2658,2871,3001,3123,3261,3395,3511,3631"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Owner\\.gradle\\caches\\transforms-2\\files-2.1\\bf96d2b5a86ecd602a621e7e96856420\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,27",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "169,239,323,407,503,605,707,2663",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "234,318,402,498,600,702,796,2747"
                     }
                 }
             ]
