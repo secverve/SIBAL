@@ -50,11 +50,18 @@ public class fragment2 extends Fragment {
 
     //데이터 준비(최종적으로는 동적으로 추가하거나 삭제할 수 있어야 한다. 이 데이터를 어디에 저장할지 정해야 한다.)
     private void prepareData() {
-        favoritesList.add(new Favorite("서울시청",37.54892296550104,126.99089033876304));
-        favoritesList.add(new Favorite("경복궁",37.54892296550104,126.99089033876304));
-        favoritesList.add(new Favorite("서울역",37.54892296550104,126.99089033876304));
-        favoritesList.add(new Favorite("남산",37.54892296550104,126.99089033876304));
-        favoritesList.add(new Favorite("을지로입구역",37.54892296550104,126.99089033876304));
+        favoritesList.add(new Favorite("CU 1000원권"));
+        favoritesList.add(new Favorite("CU 5000원권"));
+        favoritesList.add(new Favorite("CU 10000원권"));
+        favoritesList.add(new Favorite("CU 30000원권"));
+        favoritesList.add(new Favorite("제로페이 10000원 금액권"));
+        favoritesList.add(new Favorite("제로페이 30000원 금액권"));
+        favoritesList.add(new Favorite("S-Oil 주유권 1만원권"));
+        favoritesList.add(new Favorite("S-Oil 주유권 3만원권"));
+        favoritesList.add(new Favorite("S-Oil 주유권 5만원권"));
+        favoritesList.add(new Favorite("휴게소 상품권 1만원권"));
+        favoritesList.add(new Favorite("휴게소 상품권 3만원권"));
+        favoritesList.add(new Favorite("휴게소 상품권 5만원권"));
     }
 
 }
