@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\verve\\cap\\dadsa\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cu1.jpg.flat",
+        "source": "D:\\verve\\cap\\dadsa\\app\\src\\main\\res\\drawable\\cu1.jpg"
+    },
+    {
         "merged": "D:\\verve\\cap\\dadsa\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mov74.jpg.flat",
         "source": "D:\\verve\\cap\\dadsa\\app\\src\\main\\res\\drawable\\mov74.jpg"
     },
